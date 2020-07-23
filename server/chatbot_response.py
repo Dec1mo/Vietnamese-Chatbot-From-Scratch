@@ -35,22 +35,6 @@ def classify(sentence):
 	idx = numpy.argsort(-results)[0]
 	return classes[idx], results[idx]
 
-context = {}
-# def get_drink(sentence):
-#     drinks = []
-#     for values in database.values():
-#         for value in values:
-#             drinks.append(value['name'])
-
-#     results = []
-#     for drink in drinks:
-#         ratio = fuzz.ratio(sentence.lower(), drink.lower())
-#         if ratio > 50:
-#             results.append((drink, ratio))
-#     return results
-
-# print(get_drink("trà sữa"))
-
 def response(tag):
 	for i in intents['intents']:
 		if i['tag'] == tag:
