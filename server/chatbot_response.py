@@ -1,7 +1,5 @@
 # things we need for NLP
 import nltk
-from nltk.stem.lancaster import LancasterStemmer
-stemmer = LancasterStemmer()
 from underthesea import word_tokenize
 from fuzzywuzzy import fuzz
 # things we need for Tensorflow
