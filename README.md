@@ -29,30 +29,28 @@
 Vietnamese Drink Ordering Chatbot = Intent classification + Context + (Address fuzzy matching + Facebook Built-in NLP)
 
 ## 🎥 Demo <a name = "demo"></a>
-![Working](https://media.giphy.com/media/20NLMBm0BkUOwNljwv/giphy.gif)
+![Working](https://media.giphy.com/media/LOc3MaQ9sh72gScetp/giphy.gif)
 
 ## 💭 How it works <a name = "working"></a>
-A session starts with a message from a user. A message can be text or attachment (sticker, audio, video, image, file, template).
+A session starts with a message from a user.
 
-If the bot receives a text message, it predicts the intent (greeting, goodbye, complain, praise, thanks, sorry, ask_drink, order, ask_coupon, payment, ask_owner) of the text.
-If the intent of the text message was:
+When the bot receives a text message, it predicts the intent (greeting, goodbye, complain, praise, thanks, sorry, ask_drink, order, ask_coupon, payment, ask_owner) of the text.
+If it is:
 + ask_drink/order: The bot responses a template for user to pick his drink and topping.
 + ask_payment: The bot sets up a context, asks and stores user's information that required for delivery order such as: phone number, time of receipt, location. 
   + The bot uses Built-in NLP of Facebook to get phone number and time of receipt effectively and accurately.
   + The bot uses fuzzy matching to match the input location with a location in a standard address table to parse the input location.
-+ else: the bot responses a text message.
-If the bot receives an attachment message, it responses a random sticker or gif. **(This feature doesn't work at the moment!)**
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 ### Requirements
 + [Facebook Messenger app](https://developers.facebook.com/)
 + [ngrok](https://ngrok.com/) - An awesome and easy tool which creates a secure tunnel on your local machine along with a public URL. I used a json file instead of a database but you can use [Heroku](https://www.heroku.com/) instead of ngrok and json.
-+ underthesea
-+ sklearn
-+ tensorflow
-+ keras
-+ pickle
-+ fuzzywuzzy
++ [underthesea](https://pypi.org/project/underthesea/)
++ [sklearn](https://pypi.org/project/sklearn/)
++ [tensorflow](https://pypi.org/project/tensorflow/)
++ [Keras](https://pypi.org/project/Keras/]
++ [fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/)
++ [bottle](https://pypi.org/project/bottle/)
 
 ### Installing
 #### Train and save the intent classification model
