@@ -48,7 +48,7 @@ If it is:
 + [underthesea](https://pypi.org/project/underthesea/)
 + [sklearn](https://pypi.org/project/sklearn/)
 + [tensorflow](https://pypi.org/project/tensorflow/)
-+ [Keras](https://pypi.org/project/Keras/]
++ [Keras](https://pypi.org/project/Keras/)
 + [fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/)
 + [bottle](https://pypi.org/project/bottle/)
 
@@ -89,4 +89,4 @@ You will get something like this:
 <a href="" rel="noopener">
  <img src="https://i.imgur.com/wfjukqW.png" alt="built-in_NLP"></a>
 
-Now your Messenger Chatbot is ready to chat!
+Now your Messenger Chatbot is ready to chat with you!
