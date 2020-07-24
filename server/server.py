@@ -223,7 +223,7 @@ def bot_endpoint():
 								'{}*Số điện thoại: {}\n'
 								'*Giờ lấy đồ: {}\n'
 								'*Địa chỉ bạn nhập: {}\n'
-								'*Địa chỉ chuẩn hóa: {}\n'
+								'*Địa chỉ chuẩn hóa: \n{}\n'
 								'*Tổng thiệt hại vị chi là: {} nha.'
 								.format(
 									drink_str, 
