@@ -40,7 +40,7 @@ If it is:
 + ask_payment: The bot sets up a context, asks and stores user's information that required for delivery order such as: phone number, time of receipt, location. 
   + The bot uses Built-in NLP of Facebook to get phone number and time of receipt effectively and accurately.
   + The bot uses fuzzy matching to match the input location with a location in a standard address table to parse the input location.
-
++ else: the bot responses a text corresponds to the intent.
 ## 🏁 Getting Started <a name = "getting_started"></a>
 ### Requirements
 + [Facebook Messenger app](https://developers.facebook.com/)
