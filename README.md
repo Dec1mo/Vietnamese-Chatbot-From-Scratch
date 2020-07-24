@@ -26,7 +26,7 @@
 + [Getting Started](#getting_started)
 
 ## 🧐 About <a name = "about"></a>
-Vietnamese Drink Ordering Chatbot = Intent classification + Context + (Address fuzzy matching + Facebook Built-in NLP)
+Vietnamese Drink Ordering Chatbot = Intent classification + Context Handler + Address fuzzy matching + Facebook Built-in NLP
 
 ## 🎥 Demo <a name = "demo"></a>
 ![Working](https://media.giphy.com/media/LOc3MaQ9sh72gScetp/giphy.gif)
