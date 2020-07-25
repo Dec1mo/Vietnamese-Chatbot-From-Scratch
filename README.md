@@ -15,7 +15,7 @@
 
 ---
 
-<p align="center"> 🤖 A Messenger chatbot built without any frameworks which is able to chat, send stickers, provide information, help users order drinks and pay. 
+<p align="center"> 🤖 A Messenger chatbot built without any frameworks which is able to chat, provide information, help users order drinks and pay. 
     <br> 
 </p>
 
