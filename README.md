@@ -15,9 +15,11 @@
 
 ---
 
-<p align="center"> 🤖 A Messenger chatbot built without any frameworks which is able to chat, provide information, help users order drinks and pay. 
+<p align="center"> 🤖 A Messenger chatbot built without any frameworks which are able to chat, provide information, help users order drinks and pay. 
     <br> 
 </p>
+
+> :warning: **Because of some large data files, I didn't push the data and saved files. If you want to reproduce this work, you can check the full version of the repository [here](https://drive.google.com/drive/u/1/folders/12VUXNyqIltrupMUbHm2gBaWFfctuUnyN).**
 
 ## 📝 Table of Contents
 + [About](#about)
@@ -36,9 +38,9 @@ A session starts with a message from a user.
 
 When the bot receives a text message, it predicts the intent (greeting, goodbye, complain, praise, thanks, sorry, ask_drink, order, ask_coupon, payment, ask_owner) of the text.
 If it is:
-+ ask_drink/order: The bot responses a template for user to pick his drink and topping.
-+ ask_payment: The bot sets up a context, asks and stores user's information that required for delivery order such as: phone number, time of receipt, location. 
-  + The bot uses Built-in NLP of Facebook to get phone number and time of receipt effectively and accurately.
++ ask_drink/order: The bot responses with a template for the user to pick his drink and topping.
++ ask_payment: The bot sets up a context, asks, and stores the user's information that is required for delivery order such as phone number, time of receipt, location. 
+  + The bot uses the Built-in NLP of Facebook to get phone numbers and time of receipt effectively and accurately.
   + The bot uses fuzzy matching to match the input location with a location in a standard address table to parse the input location.
 + else: the bot responses a text corresponds to the intent.
 ## 🏁 Getting Started <a name = "getting_started"></a>
@@ -65,7 +67,7 @@ If it is:
 <a href="" rel="noopener">
  <img src="https://i.imgur.com/cbsv60v.png" alt="access_token"></a>
 
-#### Put the token we had just generated into server.py file
+#### Put the token we had just generated into the server.py file
 ```python
 PAGE_TOKEN = "EAAQgL..."
 ```
